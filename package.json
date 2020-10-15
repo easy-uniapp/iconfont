@@ -17,20 +17,21 @@
     "uni-app",
     "iconfont"
   ],
-  "scripts": {
-    "start": "ts-node src/commands/iconfont.js"
-  },
-  "main": "dist/commands/iconfont.js",
   "author": "godtail <i@tech.top>",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/commands/iconfont.ts"
+  },
+  "main": "dist/commands/iconfont.js",
+  "bin": {
+    "iconfont": "dist/commands/iconfont.js"
+  },
   "devDependencies": {
     "@types/node": "^14.11.8",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
-    "commander": "^6.1.0",
-    "figlet": "^1.5.0"
+    "chalk": "^4.1.0"
   }
 }
