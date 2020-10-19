@@ -20,7 +20,8 @@
   "author": "godtail <i@tech.top>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/commands/iconfont.ts"
+    "start": "ts-node src/commands/iconfont.ts",
+    "prepublish": "tsc"
   },
   "main": "dist/commands/iconfont.js",
   "bin": {
