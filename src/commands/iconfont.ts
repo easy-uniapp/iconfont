@@ -43,7 +43,7 @@ const main = async () => {
       parser: 'scss',
     })
     // output to src/styles/iconfont.scss
-    fs.writeFile('src/styles/iconfont.scss', iconfontScss, { flag: 'wx' }, (err) => {
+    fs.writeFile('src/styles/iconfont.scss', iconfontScss, { flag: 'w' }, (err) => {
       if (err) {
         console.error(err?.message)
         return
