@@ -1,6 +1,6 @@
 {
   "name": "@easy-uniapp/iconfont",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy Uni-App Iconfont tool",
   "repository": {
     "type": "git",
@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "node-fetch": "^2.6.1",
-    "prettier": "^2.1.2",
-    "user": "0.0.0"
+    "prettier": "^2.1.2"
   }
 }
